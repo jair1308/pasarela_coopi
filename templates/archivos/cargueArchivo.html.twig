@@ -1,0 +1,17 @@
+<form class="row g-3" enctype="multipart/form-data">
+  <div class="col-12">
+    <label class="form-label">Cargue la pasarela</label>
+    <div class="mb-3">
+      <input class="form-control" type="file" id="formFile">
+    </div>
+  </div>
+  <div class="col-12">
+    <button type="button" id="btn-cargar-archivo" class="btn btn-primary">Cargar</button>
+  </div>
+</form>
+{% block javascripts %}
+<script>
+  var ApiRestURLS = {};
+  ApiRestURLS.cargarArchivo = `{{ path('pasarela.updateArchivo') }}`;
+</script>
+{% endblock %}

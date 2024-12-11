@@ -1,0 +1,8 @@
+name: 'Pasarela'
+type: module
+core_version_requirement: ^10
+description: '<b>Pasarela Coopicrédito:</b> Módulo de gestión de pagos de coopicrédito.'
+version: 1.0.1
+package: 'Waplicaciones SAS'
+#dependencies:
+# - drupal: node

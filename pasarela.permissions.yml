@@ -1,0 +1,3 @@
+Permiso lectura:
+  title: 'Acceso solo lectura al usuario.'
+  restrict access: true

@@ -1,0 +1,7 @@
+pasarela.listadoA:
+  title: "Cargar archivos"
+  description: "Cargue la pasarela de <b>Coopicrédito</b>"
+  route_name: pasarela.cargueArchivo
+  parent: system.admin
+  weight: 100
+  menu_name: main

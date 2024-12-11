@@ -1,0 +1,14 @@
+#Seccion para el formulario de creacion de solicitud de credito
+pasarela.cargueArchivo:
+  path: "/pasarela/cargaArchivo"
+  defaults:
+    _controller: '\Drupal\pasarela\Controller\CargueArchivoController::index'
+  requirements:
+    _permission: "access content"
+    
+pasarela.updateArchivo:
+  path: "/admin/pasarela/updateArchivo"
+  defaults:
+    _controller: '\Drupal\pasarela\Controller\CargueArchivoController::updateArchivoDev'
+  requirements:
+    _permission: "access content"

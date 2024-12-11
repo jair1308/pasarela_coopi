@@ -1,0 +1,7 @@
+archivos-scripts:
+  # css:
+  #   theme:
+  #     css/solicitudes/solicitudesCantidad.css: {}
+  js:
+    js/archivos/archivos.js: {}
+    https://cdn.jsdelivr.net/npm/sweetalert2@11: { type: external }

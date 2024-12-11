@@ -1,0 +1,11 @@
+services:
+  _defaults:
+    autowire: true
+  pasarela.archivos:
+    class: 'Drupal\pasarela\Services\Archivos'
+
+parameters:
+  twig.config:
+    debug: true
+    auto_reload: true
+    cache: false
